@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Spotify:Music Player Clone By Ayush</title>
+
+    <link rel="icon" type="image/png" href="spotify_logo.png" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <div class="top">
+
+        <div class="left">
+
+            <div id="toolbar">
+
+                <a href="https://open.spotify.com/"><img class="spotify" src="Spotify_Logo_RGB_White.png" alt="f"></a>
+                <ul>
+                    <li><a href="https://open.spotify.com/"><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li><a href="https://open.spotify.com/search"><i class="fa-solid fa-magnifying-glass"></i>Search</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div id="library">
+
+                <div class="YourLibrary">
+
+                    <div>
+                        <a href="">
+                            <i class="fa-solid fa-lines-leaning fa-rotate-180"></i>
+                            Your Library
+                        </a>
+                    </div>
+
+                    <button><i class="fa-regular fa-plus"></i></button>
+                </div>
+
+                <div class="playlist">
+
+                    <div class="bold">
+                        <h4>Create your first playlist</h4>
+                    </div>
+
+                    <div class="light">
+                        It's easy, we'll help you
+                    </div>
+
+                    <a href="#"><button id="button_left">Create playlist</button></a>
+
+                </div>
+
+                <div class="podcast">
+
+                    <div class="bold">
+                        <h4>Let's find some podcasts to follow</h4>
+                    </div>
+
+                    <div class="light">
+                        We'll keep you updated on new episodes
+                    </div>
+
+                    <a href="https://open.spotify.com/genre/podcasts-web"><button id="button_left">Browse
+                            podcasts</button></a>
+
+                </div>
+
+                <div class="footer">
+
+                    <a href="https://www.spotify.com/in-en/legal/end-user-agreement/">Legal</a>
+                    <a href="https://www.spotify.com/in-en/safetyandprivacy/reporting-content">Safety & Privacy
+                        Center</a>
+                    <br>
+                    <br>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a>
+                    <br>
+                    <a href="https://www.spotify.com/in-en/accessibility">Accessibility</a>
+                    <a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+                    <button id="button_lang">English</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="right">
+
+            <div id="songs">
+
+                <div class="nav">
+
+                    <div class="icon">
+                        <button><i class="fa-solid fa-chevron-left"></i></button>
+                        <button><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+
+                    <div class="sign">
+                        <a href="https://www.spotify.com/in-en/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2F">Sign
+                            up</a>
+                        <a href="https://accounts.spotify.com/en/login?continue=https%3A%2F%2Fopen.spotify.com%2F"><button
+                                id="button_login">Log In</button></a>
+                    </div>
+
+                </div>
+
+                <div class="artists">
+                    <a href="https://open.spotify.com/section/0JQ5DAnM3wGh0gz1MXnu3C">
+                        <h2>Popular Artists</h2>
+                    </a>
+                    <a href="https://open.spotify.com/section/0JQ5DAnM3wGh0gz1MXnu3C">Show all</a>
+                </div>
+
+                <div class="images">
+
+                    <div class="image">
+                        <a href="https://open.spotify.com/artist/1wRPtKGflJrBx9BmLsSwlU">
+                            <img id="image" src="pritam.jpeg" alt="Pritam">
+                            Pritam
+                            <br>
+                            Artist
+                        </a>
+                    </div>
+
+                    <div class="image">
+                        <a href="https://open.spotify.com/artist/4YRxDV8wJFPHPTeXepOstw">
+                            <img src="arijit.jpeg" alt="" id="image_2">
+                            Arijit
+                            <br>
+                            Artist
+                        </a>
+                    </div>
+
+                    <div class="image">
+                        <a href="https://open.spotify.com/artist/5wJ1H6ud777odtZl5gG507">
+                            <img src="vishal.jpeg" alt="" id="image_2">
+                            Vishal Mishra
+                            <br>
+                            Artist
+                        </a>
+                    </div>
+
+                    <div class="image">
+                        <a href="https://open.spotify.com/artist/1mYsTxnqsietFxj1OgoGbG">
+                            <img src="arrahman.jpeg" alt="" id="image">
+                            A.R.Rahman
+                            <br>
+                            Artist
+                        </a>
+                    </div>
+
+                    <div class="image">
+                        <a href="https://open.spotify.com/artist/4zCH9qm4R2DADamUHMCa6O">
+                            <img src="anirudh.jpeg" alt="" id="image">
+                            Anirudh Ravichander
+                            <br>
+                            Artist
+                        </a>
+                    </div>
+
+                    <div class="image">
+                        <a href="https://open.spotify.com/artist/6Mv8GjQa7LKUGCAqa9qqdb">
+                            <img src="shekhar.jpeg" alt="" id="image">
+                            Vishal-Shekhar
+                            <br>
+                            Artist
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="details">
+
+                    <div id="details">
+
+                        <h4>Company</h4>
+
+                        <div class="content">
+                            <a href="https://www.spotify.com/in-en/about-us/contact/">About</a>
+                            <br> <br>
+                            <a href="https://www.lifeatspotify.com/">Jobs</a>
+                            <br> <br>
+                            <a href="https://newsroom.spotify.com/">For the Record</a>
+                        </div>
+
+                    </div>
+
+                    <div id="details">
+
+                        <h4>Communities</h4>
+
+                        <div class="content">
+                            <a href="https://artists.spotify.com/home">For Artists</a>
+                            <br> <br>
+                            <a href="https://developer.spotify.com/">Developers</a>
+                            <br> <br>
+                            <a href="https://ads.spotify.com/en-US/">Advertising</a>
+                            <br> <br>
+                            <a href="https://investors.spotify.com/home/default.aspx">Investors</a>
+                            <br> <br>
+                            <a href="https://spotifyforvendors.com/">Vendors</a>
+                        </div>
+
+                    </div>
+
+                    <div id="details">
+
+                        <h4>Useful Links</h4>
+
+                        <div class="content">
+                            <a href="https://spotifyforvendors.com/">Support</a>
+                            <br> <br>
+                            <a href="https://www.spotify.com/in-en/free/">Free Mobile App</a>
+                        </div>
+
+                    </div>
+
+                    <div id="details">
+
+                        <h4>Spotify Plans</h4>
+
+                        <div class="content">
+                            <a href="https://www.spotify.com/in-en/premium/">Premium Individual</a>
+                            <br> <br>
+                            <a href="https://www.spotify.com/in-en/duo/">Premium Duo</a>
+                            <br> <br>
+                            <a href="https://www.spotify.com/in-en/family/">Premium Family</a>
+                            <br> <br>
+                            <a href="https://www.spotify.com/in-en/student/">Premium Student</a>
+                            <br> <br>
+                            <a href="https://www.spotify.com/in-en/free/">Spotify Free</a>
+                        </div>
+
+                    </div>
+
+                    <div id="details">
+                        <button><a href="https://www.instagram.com/spotify" target="_blank" rel="noopener noreferrer"><i
+                                    class="fa-brands fa-instagram fa-xl"></i></a></button>
+                        <button><a href="https://twitter.com/spotify" target="_blank" rel="noopener noreferrer"><i
+                                    class="fa-brands fa-square-twitter fa-xl"></i></a></button>
+                        <button><a href="https://www.facebook.com/Spotify" target="_blank" rel="noopener noreferrer"><i
+                                    class="fa-brands fa-facebook fa-xl"></i></a></button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="bottom">
+
+        <div id="preview">
+
+            <div>
+                <h5>Preview of Spotify</h5>
+                Sign up to get unlimited songs and podcasts with occasional ads. No credit card required.
+            </div>
+
+            <button id="button_sign">Sign up free</button>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
